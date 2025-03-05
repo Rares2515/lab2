@@ -2,8 +2,11 @@
 #include <stdio.h>
 
 int function(int x){
+	while(x>0)
+	{
 	x=x-2;
 	x=function(x);
+	}
 	return x;
 }
 
